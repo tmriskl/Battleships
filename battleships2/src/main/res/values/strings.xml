@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BATTLESHIPS</string>
+    <string name="StartBotton">START</string>
+    <string name="DifficaltyEasy">EASY</string>
+    <string name="DifficaltyMedium">MEDIUM</string>
+    <string name="DifficaltyHard">HARD</string>
+    <string name="WarShips">WarShips</string>
+    <string name="CompTurn">Computer Board</string>
+    <string name="PlyrTurn">Player Board</string>
+    <string name="EnmyShips">Enemy Ships</string>
+    <string name="Lose">You Lost!!</string>
+    <string name="Win">You Win!!!</string>
+    <string name="Hit">Hit</string>
+    <string name="Miss">Miss</string>
+    <string name="Score">Score</string>
+    <string name="Zero">0</string>
+    <string name="Restart">Restart</string>
+    <string name="Switch">Switch Board</string>
+    <string name="YourName">Enter Your Name</string>
+    <string name="YourLocation">Enter Your Location</string>
+    <string name="EnterWinner">Enter</string>
+    <string name="Menu">Menu</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

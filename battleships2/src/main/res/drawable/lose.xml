@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item android:drawable="@drawable/lose1"   android:duration="100"></item>
+    <item android:drawable="@drawable/lose2"   android:duration="100"></item>
+    <item android:drawable="@drawable/lose3"   android:duration="100"></item>
+    <item android:drawable="@drawable/lose4"   android:duration="100"></item>
+    <item android:drawable="@drawable/lose5"   android:duration="100"></item>
+    <item android:drawable="@drawable/lose6"   android:duration="100"></item>
+    <item android:drawable="@drawable/lose7"   android:duration="100"></item>
+    <item android:drawable="@drawable/lose8"   android:duration="100"></item>
+    <item android:drawable="@drawable/lose9"   android:duration="100"></item>
+    <item android:drawable="@drawable/lose10"  android:duration="100"></item>
+    <item android:drawable="@drawable/lose11"  android:duration="100"></item>
+    <item android:drawable="@drawable/lose12"  android:duration="100"></item>
+    <item android:drawable="@drawable/lose13"  android:duration="100"></item>
+    <item android:drawable="@drawable/lose14"  android:duration="100"></item>
+    <item android:drawable="@drawable/lose15"  android:duration="100"></item>
+    <item android:drawable="@drawable/lose16"  android:duration="100"></item>
+    <item android:drawable="@drawable/lose17"  android:duration="100"></item>
+    <item android:drawable="@drawable/lose18"  android:duration="100"></item>
+    <item android:drawable="@drawable/lose19"  android:duration="100"></item>
+    <item android:drawable="@drawable/lose20"  android:duration="100"></item>
+    <item android:drawable="@drawable/lose21"  android:duration="100"></item>
+
+</animation-list>

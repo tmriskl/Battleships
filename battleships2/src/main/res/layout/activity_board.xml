@@ -1,0 +1,2224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/war">
+
+    <!--
+    <LinearLayout
+        android:id="@+id/Colums"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:orientation="vertical"
+        android:weightSum="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/Row0"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <Button
+                android:id="@+id/button00"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button01"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button02"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button03"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button04"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button05"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button06"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button07"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button08"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button09"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/Row1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Row2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Row3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button38"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button39"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Row4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <Button
+                android:id="@+id/button40"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button41"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button42"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button43"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button44"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button45"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button46"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button47"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button48"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button49"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Row5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <Button
+                android:id="@+id/button50"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button51"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button52"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button53"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button54"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button55"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button56"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button57"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button58"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button59"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/Row6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <Button
+                android:id="@+id/button60"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button61"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button62"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button63"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button64"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button65"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button66"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button67"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button68"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button69"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/Row7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <Button
+                android:id="@+id/button70"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button71"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button72"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button73"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button74"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button75"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button76"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button77"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button78"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button79"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/Row8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <Button
+                android:id="@+id/button80"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button81"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button82"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button83"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button84"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button85"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button86"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button87"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button88"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button89"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/Row9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <Button
+                android:id="@+id/button90"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button91"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button92"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button93"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button94"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button95"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button96"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button97"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button98"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button99"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ColumsComp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="5dp"
+        android:orientation="vertical"
+        android:weightSum="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/Row0Comp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <Button
+                android:id="@+id/button00Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button01Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button02Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button03Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button04Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button05Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button06Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button07Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button08Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button09Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/Row1Comp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <Button
+                android:id="@+id/button10Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button11Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button12Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button13Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button14Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button15Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button16Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button17Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button18Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button19Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Row2Comp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <Button
+                android:id="@+id/button20Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button21Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button22Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button23Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button24Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button25Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button26Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button27Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button28Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button29Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Row3Comp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <Button
+                android:id="@+id/button30Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button31Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button32Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button33Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button34Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button35Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button36Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button37Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button38Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button39Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Row4Comp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <Button
+                android:id="@+id/button40Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button41Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button42Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button43Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button44Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button45Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button46Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button47Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button48Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button49Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Row5Comp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <Button
+                android:id="@+id/button50Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button51Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button52Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button53Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button54Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button55Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button56Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button57Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button58Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button59Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/Row6Comp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <Button
+                android:id="@+id/button60Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button61Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button62Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button63Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button64Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button65Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button66Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button67Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button68Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button69Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/Row7Comp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <Button
+                android:id="@+id/button70Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button71Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button72Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button73Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button74Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button75Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button76Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button77Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button78Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button79Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/Row8Comp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <Button
+                android:id="@+id/button80Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button81Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button82Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button83Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button84Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button85Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button86Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button87Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button88Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button89Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/Row9Comp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="177dp">
+
+            <Button
+                android:id="@+id/button90Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button91Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button92Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button93Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button94Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button95Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button96Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button97Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button98Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button99Comp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ocean"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+-->
+
+    <GridView
+        android:id="@+id/playerTerritory"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_above="@+id/turnView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:numColumns="10"
+        android:stretchMode="columnWidth" />
+
+    <TextView
+        android:id="@+id/Remaining4View"
+        android:layout_width="100dp"
+        android:layout_height="27dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/Remaining3View"
+        android:layout_toStartOf="@+id/progressBar2"
+        android:background="@drawable/ship4"
+        android:text="@string/Zero"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Remaining3View"
+        android:layout_width="49dp"
+        android:layout_height="27dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/Remaining2View"
+        android:layout_toStartOf="@+id/switchbtn"
+        android:background="@drawable/ship3"
+        android:text="@string/Zero"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Remaining2View"
+        android:layout_width="49dp"
+        android:layout_height="27dp"
+        android:layout_alignEnd="@+id/turnView"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/Remaining1View"
+        android:background="@drawable/ship2"
+        android:text="@string/Zero"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Remaining1View"
+        android:layout_width="49dp"
+        android:layout_height="27dp"
+        android:layout_alignBaseline="@+id/Remaining4View"
+        android:layout_alignBottom="@+id/Remaining4View"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/ship1"
+        android:text="@string/Zero"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/turnView"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/progressBar2"
+        android:layout_alignParentStart="true"
+        android:fontFamily="serif"
+        android:text="@string/CompTurn"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/switchbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/playerTerritory"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/Switch"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/Animationlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playerTerritory"
+        android:layout_toEndOf="@+id/turnView"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="177dp">
+
+        <ImageView
+            android:id="@+id/WinLoseAnimation"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/switchbtn"
+            android:layout_below="@+id/playerTerritory"
+            android:layout_toEndOf="@+id/turnView"
+            android:layout_toStartOf="@+id/switchbtn" />
+    </LinearLayout>
+
+</RelativeLayout>

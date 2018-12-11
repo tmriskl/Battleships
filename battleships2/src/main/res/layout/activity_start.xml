@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pciturebattleshipd">
+<!--<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pciturebattleshipd"
+    tools:context="com.example.battleships.StartActivity">-->
+
+
+    <Button
+        android:id="@+id/difficultybtn"
+        android:layout_width="158dp"
+        android:layout_height="62dp"
+        android:layout_alignBottom="@+id/startbtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/ProgressBarStart"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="casual"
+        android:soundEffectsEnabled="true"
+        android:text="@string/DifficaltyEasy"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/startbtn"
+        android:layout_width="129dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="0dp"
+        android:fontFamily="cursive"
+        android:text="@string/StartBotton"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/ProgressBarStart"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/startbtn"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/startbtn"
+        app:layout_constraintStart_toEndOf="@+id/difficultybtn" />
+
+    <RelativeLayout
+        android:id="@+id/FragmentTable"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_above="@+id/difficultybtn"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="320dp">
+
+    </RelativeLayout>
+    <!--
+        <GridView
+            android:id="@+id/playerTerritory"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_above="@+id/turnView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:numColumns="10"
+            android:stretchMode="columnWidth" />
+
+    -->
+    <!--
+        <GridView
+            android:id = "@+id/scoretable"
+            android:layout_width="368dp"
+            android:layout_height="112dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+
+
+            />
+            -->
+
+
+
+
+</RelativeLayout>
